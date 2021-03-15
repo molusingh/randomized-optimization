@@ -1,0 +1,19 @@
+name: cs7641
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - jupyterlab
+  - ptvsd
+  - nodejs
+  - xeus-python
+  - notebook
+  - matplotlib
+  - ipympl
+  - pandas
+  - scikit-learn
+  - graphviz
+  - pydotplus
+  - imbalanced-learn
+  

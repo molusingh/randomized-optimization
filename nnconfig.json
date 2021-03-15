@@ -1,0 +1,27 @@
+{
+    "name": "nn",
+    "gd": {
+        "skip": false,
+        "iteration_list": [4000],
+        "max_attempts": 50
+    },
+    "rhc": {
+        "skip": false,
+        "iteration_list": [4000],
+        "max_attempts": 50,
+        "restart_list": [3]
+    },
+    "sa": {
+        "skip": false,
+        "iteration_list": [4000],
+        "max_attempts": 50,
+        "temperature_list": [0.01]
+    },
+    "ga": {
+        "skip": false,
+        "iteration_list": [4000],
+        "max_attempts": 50,
+        "population_sizes" : [25],
+        "mutation_rates" : [0.001]
+    }
+}

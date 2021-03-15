@@ -1,0 +1,31 @@
+{
+    "name": "queens",
+    "size": 32,
+    "sizes": [8, 32, 64],
+    "rhc": {
+        "skip": false,
+        "iteration_list": [10000],
+        "max_attempts": 100,
+        "restart_list": [10, 25, 50]
+    },
+    "sa": {
+        "skip": false,
+        "iteration_list": [10000],
+        "max_attempts": 100,
+        "temperature_list": [0.1, 1.0, 10.0, 100.0]
+    },
+    "ga": {
+        "skip": false,
+        "iteration_list": [10000],
+        "max_attempts": 100,
+        "population_sizes" : [5, 25, 50, 100],
+        "mutation_rates" : [0.2, 0.1, 0.05, 0.01]
+    },
+    "mimic": {
+        "skip": false,
+        "iteration_list": [10000],
+        "max_attempts": 100,
+        "population_sizes": [5, 25, 50, 100],
+        "keep_percent_list" : [0.25, 0.1, 0.05, 0.01]
+    }
+}
